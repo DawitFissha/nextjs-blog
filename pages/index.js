@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import {Button} from '@material-ui/core'
 import Link from 'next/link'
 import { getSortedPostsData } from '../lib/posts'
 import BlogData from '../lib/data'
@@ -27,7 +26,7 @@ export default function Home({allPostsData}) {
 
       
         <h1 className="title">
-          Learn <a href="https://nextjs.org">Next.js!</a>
+          
         </h1>
           <Link href="/posts/first-post">
           <a>
@@ -35,7 +34,7 @@ export default function Home({allPostsData}) {
           </a>
           </Link>
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          First test project of Nextjs
         </p>
         <section>
         <h2>Blog</h2>
